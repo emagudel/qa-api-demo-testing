@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features="src/test/resources/features/",
         glue="com.certificacion.qa.api",
-        tags = "@Api_Members_Get",
+        tags = "@Regresion",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
 public class AcceptanceTestSuite {}
